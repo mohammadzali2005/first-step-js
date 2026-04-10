@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-el{
+    font-size: 45px;
+    color: white;
+}
+
+#count-el{
+    font-size: 100px;
+    color: lightgray;
+    margin-bottom: 100px;
+}
+
+#incre-btn{
+    padding: 15px 80px;
+    border-radius: 5px;
+    background-color: lightblue;
+    font-size: 20px;
+    color: blue;
+    border: none;
+    text-align: center;
+    box-shadow: inset 0 0 5px blue;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .5s,
+                box-shadow .5s;
+}
+
+#incre-btn:hover{
+    box-shadow: inset 0 0 15px blue;
+    transform: scale(.95);
+}
+
+#save-btn{
+    padding: 5px 80px;
+    border-radius: 5px;
+    background-color: rgb(236, 147, 147);
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    border: none;
+    text-align: center;
+    box-shadow: inset 0 0 5px red;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform .5s,
+                box-shadow .5s;
+}
+
+#save-btn:hover{
+    box-shadow: inset 0 0 15px red;
+    transform: scale(.95);
+}
+
+#save-el{
+    height: 45px;
+    background-color: rgba(172, 255, 47, 0.584);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    border: 5px;
+    box-shadow: 0 0 5px greenyellow;
+    font-size: 18px;
+    font-weight: bold;
+}
+
