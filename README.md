@@ -6,6 +6,9 @@ The app allows users to:
 - Save the current number
 - Display previously saved entries
 
+# Live Demo
+- [Live Demo](https://mohammadzali2005.github.io/first-step-js/)
+
 ## 🛠️ Technologies Used
 - HTML
 - CSS
